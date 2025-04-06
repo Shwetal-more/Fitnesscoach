@@ -1,0 +1,246 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hello",
+          "Hey",
+          "Good morning",
+          "Good evening",
+          "Greetings"
+        ],
+        "responses": [
+          "👋 Hello! How can I help your mind today?",
+          "Hi there! 🌟 Ready to get energized?",
+          "Hey! Let’s do something awesome together!"
+        ]
+      },
+      {
+        "tag": "motivation_general",
+        "patterns": [
+          "I feel lazy",
+          "I can't do this",
+          "Motivate me",
+          "I'm tired",
+          "I'm not feeling it today"
+        ],
+        "responses": [
+          "💪 You’ve come this far, don’t stop now!",
+          "✨ Small steps make big changes. Keep going!",
+          "🔥 You are stronger than you think. Let’s push through!"
+        ]
+      },
+      {
+        "tag": "exercise",
+        "patterns": [
+          "give me some exercises",
+          "suggest me some workouts",
+          "what are good exercises?"
+        ],
+        "responses": [
+          "💥 Here are some awesome exercises:\n- 🏃 Jumping jacks\n- 💪 Push-ups\n- 🧘 Plank\n- 🏋️ Squats\n- 🦵 Lunges\nWould you like a full plan tailored to your goals?"
+        ]
+      },
+      {
+        "tag": "morning_routine",
+        "patterns": [
+          "Morning routine",
+          "What should I do in the morning?",
+          "Healthy morning tips"
+        ],
+        "responses": [
+          "🌅 Here's your morning kick-start:\n1. Wake up early\n2. Hydrate with warm lemon water\n3. Stretch for 5 mins\n4. 10-minute meditation\n5. Healthy breakfast\n6. Set 3 goals for the day"
+        ]
+      },
+      {
+        "tag": "evening_routine",
+        "patterns": [
+          "Evening routine",
+          "What to do before sleeping?",
+          "Healthy night tips"
+        ],
+        "responses": [
+          "🌙 Try this calming evening routine:\n1. Light dinner\n2. Walk for 10 minutes\n3. Reflect on your day\n4. Read a book\n5. No screen time 30 mins before bed\n6. Sleep by 10 PM"
+        ]
+      },
+      {
+        "tag": "fitness_weight_loss",
+        "patterns": [
+          "I want to lose weight",
+          "Best way to burn fat",
+          "Fat loss tips"
+        ],
+        "responses": [
+          "🔥 Try this for weight loss:\n1. 30 min cardio daily\n2. Drink 3L water/day\n3. Eat whole foods\n4. Cut sugar and junk\n5. Sleep well\n6. Stay consistent!"
+        ]
+      },
+      {
+        "tag": "strength_training",
+        "patterns": [
+          "Build muscle",
+          "Get strong",
+          "Strength workout"
+        ],
+        "responses": [
+          "💪 Strength plan:\n1. Squats\n2. Deadlifts\n3. Push-ups\n4. Pull-ups\n5. Core exercises\n6. Rest between workouts"
+        ]
+      },
+      {
+        "tag": "mental_health",
+        "patterns": [
+          "I feel stressed",
+          "I'm anxious",
+          "Mental health tips",
+          "Calm me down"
+        ],
+        "responses": [
+          "🧘 Try this:\n1. Take deep breaths\n2. Practice mindfulness\n3. Journal your thoughts\n4. Talk to someone you trust\n5. Limit social media\n6. Go for a walk"
+        ]
+      },
+      {
+        "tag": "yoga_beginner",
+        "patterns": [
+          "Yoga for beginners",
+          "Start yoga",
+          "Yoga basics"
+        ],
+        "responses": [
+          "🧘‍♀️ Beginner yoga routine:\n1. Mountain pose\n2. Cat-Cow\n3. Child’s pose\n4. Cobra\n5. Downward Dog\n6. End with deep breathing"
+        ]
+      },
+      {
+        "tag": "diet_tips",
+        "patterns": [
+          "Healthy diet",
+          "What should I eat?",
+          "Nutrition advice"
+        ],
+        "responses": [
+          "🥗 Eat smart:\n1. More fruits & veggies\n2. Whole grains\n3. Lean protein\n4. Healthy fats\n5. Stay hydrated\n6. Avoid sugary drinks"
+        ]
+      },
+      {
+        "tag": "hydration",
+        "patterns": [
+          "Drink water",
+          "Hydration tips",
+          "How much water?"
+        ],
+        "responses": [
+          "💧 Hydration is key:\n1. Aim for 8-10 glasses/day\n2. Drink before meals\n3. Keep a water bottle nearby\n4. Eat water-rich foods\n5. Avoid sugary drinks"
+        ]
+      },
+      {
+        "tag": "sleep_tips",
+        "patterns": [
+          "I can't sleep",
+          "Tips for better sleep",
+          "Improve sleep"
+        ],
+        "responses": [
+          "😴 Sleep well:\n1. Stick to a schedule\n2. Avoid screens before bed\n3. Keep room dark & cool\n4. Avoid caffeine after 5 PM\n5. Try deep breathing before sleep"
+        ]
+      },
+      {
+        "tag": "workout_ideas",
+        "patterns": [
+          "Suggest workout",
+          "Home workout",
+          "Workout plan"
+        ],
+        "responses": [
+          "🏋️ Try this 20-min workout:\n1. Jumping jacks - 2 mins\n2. Pushups - 10 reps x 3\n3. Squats - 15 reps x 3\n4. Plank - 1 min x 2\n5. Stretch to cool down"
+        ]
+      },
+      {
+        "tag": "cardio_workouts",
+        "patterns": [
+          "Cardio exercises",
+          "Good cardio workout",
+          "Fat burning cardio"
+        ],
+        "responses": [
+          "🏃‍♂️ Cardio ideas:\n1. Jump rope\n2. High knees\n3. Burpees\n4. Running or cycling\n5. Stair climbing\nDo 20-30 minutes for best results!"
+        ]
+      },
+      {
+        "tag": "pregnancy_fitness",
+        "patterns": [
+          "Workout during pregnancy",
+          "Is it safe to exercise while pregnant?"
+        ],
+        "responses": [
+          "🤰 Light exercise during pregnancy is often beneficial! Try:\n1. Walking\n2. Prenatal yoga\n3. Light stretches\n4. Pelvic floor exercises\nAlways consult your doctor first."
+        ]
+      },
+      {
+        "tag": "post_workout_meal",
+        "patterns": [
+          "What to eat after workout?",
+          "Post workout nutrition",
+          "After gym food"
+        ],
+        "responses": [
+          "🍽 Post workout fuel:\n1. Protein smoothie\n2. Chicken and rice\n3. Greek yogurt with berries\n4. Eggs with toast\nReplenish within 30-60 minutes."
+        ]
+      },
+      {
+        "tag": "office_fitness",
+        "patterns": [
+          "Workout at office",
+          "I'm sitting all day",
+          "Desk exercises"
+        ],
+        "responses": [
+          "💼 Office-friendly exercises:\n1. Chair squats\n2. Calf raises\n3. Neck rolls\n4. Shoulder shrugs\n5. Walk during breaks"
+        ]
+      },
+      {
+        "tag": "beginner_fitness",
+        "patterns": [
+          "I'm new to fitness",
+          "First time working out",
+          "Beginner routine"
+        ],
+        "responses": [
+          "👟 Beginner steps:\n1. Start walking daily\n2. Do bodyweight exercises\n3. Stay consistent (3x a week)\n4. Track your energy & progress"
+        ]
+      },
+      {
+        "tag": "sleep_exercise_connection",
+        "patterns": [
+          "Can exercise improve sleep?",
+          "Better sleep with workout?"
+        ],
+        "responses": [
+          "😴 Yes! Regular physical activity helps improve sleep quality. Avoid intense workouts 2 hours before bed."
+        ]
+      },
+      {
+        "tag": "stretching_exercises",
+        "patterns": [
+          "Stretching routine",
+          "What stretches should I do?",
+          "Stretch exercises"
+        ],
+        "responses": [
+          "🧘‍♂️ Stretching routine:\n1. Neck rolls\n2. Shoulder stretches\n3. Hamstring stretch\n4. Quad stretch\n5. Calf stretch\n6. Hold each stretch for 30 seconds"
+        ]
+      },
+      {
+        "tag": "workout_motivation",
+        "patterns": [
+          "I need motivation",
+          "I'm not motivated",
+          "Motivate me to work out"
+        ],
+        "responses": [
+          "🔥 The only bad workout is the one you didn't do! You’ve got this!",
+          "💪 Keep pushing, you’re getting stronger with every rep!",
+          "✨ You are capable of more than you think. Let’s crush it today!"
+        ]
+      }
+    ]
+  }
+  

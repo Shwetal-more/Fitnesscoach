@@ -1,0 +1,118 @@
+
+/* Navbar Styling */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+/* Body Padding to Avoid Overlap with Navbar */
+body {
+    padding-top: 60px;
+    background-color: #f5f5f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Chat Container */
+#chatContainer {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+/* Messages */
+.message {
+    margin-bottom: 10px;
+    max-width: 75%;
+    padding: 10px;
+    border-radius: 15px;
+    word-wrap: break-word;
+}
+
+.message.user {
+    background-color: #d1ecf1;
+    align-self: flex-end;
+    margin-left: auto;
+    text-align: right;
+}
+
+.message.bot {
+    background-color: #f8d7da;
+    align-self: flex-start;
+    margin-right: auto;
+    text-align: left;
+}
+
+/* Input and Buttons */
+.input-group {
+    display: flex;
+    gap: 8px;
+}
+
+#textbox {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#sendBtn, #mic-button {
+    font-size: 16px;
+    padding: 10px 16px;
+    border-radius: 5px;
+}
+
+/* Smooth message fade-in */
+.message {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0.3; }
+    to { opacity: 1; }
+}
+
+#historyBtn {
+    font-size: 16px;
+    padding: 10px 16px;
+    border-radius: 5px;
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+}
+
+#historyBtn:hover {
+    background-color: #138496;
+}
