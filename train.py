@@ -4,12 +4,12 @@ import pickle
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 
-# Path to your intents file
-INTENTS_PATH = "C:\Users\ADMIN\Downloads\Chatbot\data\intents.json"
+# ✅ Use raw string for Windows path
+INTENTS_PATH = r"C:\Users\ADMIN\Downloads\Chatbot\data\intents.json"
 
 # Ensure the file exists
 if not os.path.exists(INTENTS_PATH):
-    raise FileNotFoundError(f"'{INTENTS_PATH}' not found. Make sure the file exists in the same folder as train.py")
+    raise FileNotFoundError(f"'{INTENTS_PATH}' not found. Make sure the file exists in the correct path.")
 
 # Load intents.json with utf-8 encoding
 with open(INTENTS_PATH, encoding='utf-8') as file:
@@ -32,7 +32,7 @@ X = vectorizer.fit_transform(X_texts)
 classifier = LogisticRegression()
 classifier.fit(X, y_labels)
 
-# Create model directory if not exists
+# Create model directory if it doesn't exist
 if not os.path.exists("model"):
     os.makedirs("model")
 
