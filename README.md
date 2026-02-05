@@ -1,5 +1,4 @@
 # Fitnesscoach
-Sure! Here's a clean, professional summary of your project based on everything you've shared:
 
 ---
 
